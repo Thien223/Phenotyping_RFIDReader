@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_10010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10010.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10009.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10016.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10022.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10020.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckon11 " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckon11 .png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckoff5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckoff5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10011.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_100010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\100010.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_100011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\100011.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckoff11 " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckoff11 .png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10017.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckon3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckon4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckon4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckoff1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckoff1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckon2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckon6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckon6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10021.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckoff4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckoff4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10012.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckoff6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckoff6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10025.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckoff3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckoff3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10006.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckon5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckon5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10015.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10008.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10023.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10013.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10021_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10021_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_100012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\100012.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10014.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10005.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10026.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10024.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10018.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheckoff2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheckoff2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10007.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheck11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheck11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncheck12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btncheck12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waiting.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_return.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BaseFrame_1" xml:space="preserve">
+    <value>CRC Error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="BaseFrame_2" xml:space="preserve">
+    <value>MID Error</value>
+    <comment>错误的MID</comment>
+  </data>
+  <data name="BaseFrame_3" xml:space="preserve">
+    <value>Control Code Error</value>
+    <comment>协议控制字其他错误</comment>
+  </data>
+  <data name="BaseFrame_4" xml:space="preserve">
+    <value>State Error</value>
+    <comment>当前状态无法执行该指令</comment>
+  </data>
+  <data name="BaseFrame_5" xml:space="preserve">
+    <value>Code Queue is Full</value>
+    <comment>指令队列已满</comment>
+  </data>
+  <data name="BaseFrame_6" xml:space="preserve">
+    <value>Incomplete Code</value>
+    <comment>消息参数不完整</comment>
+  </data>
+  <data name="BaseFrame_7" xml:space="preserve">
+    <value>Overflow</value>
+    <comment>帧长度超过限制</comment>
+  </data>
+  <data name="Frame_0001_02_1" xml:space="preserve">
+    <value>Not support this baud rate</value>
+    <comment>失败，不支持此波特率</comment>
+  </data>
+  <data name="Frame_0001_04_1" xml:space="preserve">
+    <value>IP Parameter error</value>
+    <comment>读写器IP参数错误</comment>
+  </data>
+  <data name="Frame_0001_07_1" xml:space="preserve">
+    <value>IP Parameter error</value>
+    <comment>读写器IP参数错误</comment>
+  </data>
+  <data name="Frame_0001_09_1" xml:space="preserve">
+    <value>Port parameter reader hardware is not supported</value>
+    <comment>端口参数读写器硬件不支持</comment>
+  </data>
+  <data name="Frame_0001_0B_1" xml:space="preserve">
+    <value>Not support this Port parameter</value>
+    <comment>端口参数读写器硬件不支持</comment>
+  </data>
+  <data name="Frame_0001_0B_2" xml:space="preserve">
+    <value>Parameter is missing</value>
+    <comment>参数缺失</comment>
+  </data>
+  <data name="Frame_0001_0D_1" xml:space="preserve">
+    <value>Not support Wiegand Interface</value>
+    <comment>读写器硬件不支持韦根接口</comment>
+  </data>
+  <data name="Frame_0001_0D_2" xml:space="preserve">
+    <value>Not suoport this Wiegand communication format</value>
+    <comment>读写器不支持的韦根通信格式</comment>
+  </data>
+  <data name="Frame_0001_0D_3" xml:space="preserve">
+    <value>The reader does not support the data content</value>
+    <comment>读写器不支持的数据内容</comment>
+  </data>
+  <data name="Frame_0001_10_1" xml:space="preserve">
+    <value>RTC setup failed</value>
+    <comment>RTC设置失败</comment>
+  </data>
+  <data name="Frame_0001_13_1" xml:space="preserve">
+    <value>Reader MAC parameter error</value>
+    <comment>读写器MAC参数错误</comment>
+  </data>
+  <data name="Frame_0001_31_1" xml:space="preserve">
+    <value>1|Hardware not supported</value>
+    <comment>1|硬件不支持</comment>
+  </data>
+  <data name="Frame_0001_33_0" xml:space="preserve">
+    <value>0|Connect successfully</value>
+    <comment>0|连接成功</comment>
+  </data>
+  <data name="Frame_0001_33_1" xml:space="preserve">
+    <value>1|Connection failed</value>
+    <comment>1|连接失败</comment>
+  </data>
+  <data name="Frame_0001_37_0" xml:space="preserve">
+    <value>0|Closed</value>
+    <comment>0|关闭</comment>
+  </data>
+  <data name="Frame_0001_37_1" xml:space="preserve">
+    <value>1|Open</value>
+    <comment>1|打开</comment>
+  </data>
+  <data name="Frame_0001_48_0" xml:space="preserve">
+    <value>Success!</value>
+    <comment>操作成功！</comment>
+  </data>
+  <data name="Frame_0001_48_1" xml:space="preserve">
+    <value>Parameter error!</value>
+    <comment>参数错误!</comment>
+  </data>
+  <data name="Frame_0001_48_2" xml:space="preserve">
+    <value>Save failed!</value>
+    <comment>保存失败!</comment>
+  </data>
+  <data name="Frame_0010_01_1" xml:space="preserve">
+    <value>Not support this Port parameter</value>
+    <comment>端口参数读写器硬件不支持</comment>
+  </data>
+  <data name="Frame_0010_01_2" xml:space="preserve">
+    <value>Not support this Power parameter</value>
+    <comment>功率参数读写器硬件不支持</comment>
+  </data>
+  <data name="Frame_0010_03_1" xml:space="preserve">
+    <value>Not support this Frequency range parameter</value>
+    <comment>频段参数读写器硬件不支持</comment>
+  </data>
+  <data name="Frame_0010_05_1" xml:space="preserve">
+    <value>Channel number is out of the current band range</value>
+    <comment>信道号不在当前频段内</comment>
+  </data>
+  <data name="Frame_0010_05_2" xml:space="preserve">
+    <value>Invalid number of frequencies</value>
+    <comment>无效的频点数</comment>
+  </data>
+  <data name="Frame_0010_05_3" xml:space="preserve">
+    <value>Other parameter error</value>
+    <comment>其他参数错误</comment>
+  </data>
+  <data name="Frame_0010_07_1" xml:space="preserve">
+    <value>this antenna port does not exist</value>
+    <comment>天线端口不存在</comment>
+  </data>
+  <data name="Frame_0010_09_1" xml:space="preserve">
+    <value>Parameter error</value>
+    <comment>参数错误</comment>
+  </data>
+  <data name="Frame_0010_0B_1" xml:space="preserve">
+    <value>The device does not support the baseband rate</value>
+    <comment>读写器不支持的基带速率</comment>
+  </data>
+  <data name="Frame_0010_0B_2" xml:space="preserve">
+    <value>Q value parameter error</value>
+    <comment>Q值参数错误</comment>
+  </data>
+  <data name="Frame_0010_0B_3" xml:space="preserve">
+    <value>Session parameter error</value>
+    <comment>Session参数错误</comment>
+  </data>
+  <data name="Frame_0010_0B_4" xml:space="preserve">
+    <value>Inventory parameter error</value>
+    <comment>盘存参数错误</comment>
+  </data>
+  <data name="Frame_0010_0B_5" xml:space="preserve">
+    <value>Other parameter error</value>
+    <comment>其他参数错误</comment>
+  </data>
+  <data name="Frame_0010_0D_1" xml:space="preserve">
+    <value>Mode parameter error</value>
+    <comment>模式参数错误</comment>
+  </data>
+  <data name="Frame_0010_0D_2" xml:space="preserve">
+    <value>Other parameter error</value>
+    <comment>其他参数错误</comment>
+  </data>
+  <data name="Frame_0010_10_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_10_2" xml:space="preserve">
+    <value>Select Read parameter error</value>
+    <comment>选择读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_10_3" xml:space="preserve">
+    <value>TID reading error</value>
+    <comment>TID读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_10_4" xml:space="preserve">
+    <value>Userdata reading error</value>
+    <comment>用户数据区读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_10_5" xml:space="preserve">
+    <value>Reserved Area data reading error</value>
+    <comment>保留区读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_10_6" xml:space="preserve">
+    <value>Other parameter errors</value>
+    <comment>其他参数错误</comment>
+  </data>
+  <data name="Frame_0010_11_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_11_10" xml:space="preserve">
+    <value>Tag missing</value>
+    <comment>标签丢失</comment>
+  </data>
+  <data name="Frame_0010_11_11" xml:space="preserve">
+    <value>Command sending error</value>
+    <comment>读写器发送指令错误</comment>
+  </data>
+  <data name="Frame_0010_11_2" xml:space="preserve">
+    <value>Parameter selection error</value>
+    <comment>选择参数错误</comment>
+  </data>
+  <data name="Frame_0010_11_3" xml:space="preserve">
+    <value>Parameter input error</value>
+    <comment>写入参数错误</comment>
+  </data>
+  <data name="Frame_0010_11_4" xml:space="preserve">
+    <value>CRC error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="Frame_0010_11_5" xml:space="preserve">
+    <value>Power shortage</value>
+    <comment>功率不足</comment>
+  </data>
+  <data name="Frame_0010_11_6" xml:space="preserve">
+    <value>Data Overflow</value>
+    <comment>数据区溢出</comment>
+  </data>
+  <data name="Frame_0010_11_7" xml:space="preserve">
+    <value>The data area is locked</value>
+    <comment>数据区被锁定</comment>
+  </data>
+  <data name="Frame_0010_11_8" xml:space="preserve">
+    <value>Access password error</value>
+    <comment>访问密码错误</comment>
+  </data>
+  <data name="Frame_0010_11_9" xml:space="preserve">
+    <value>Other tag mistakes</value>
+    <comment>其他标签错误</comment>
+  </data>
+  <data name="Frame_0010_12_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_12_10" xml:space="preserve">
+    <value>Labels are missing</value>
+    <comment>标签丢失</comment>
+  </data>
+  <data name="Frame_0010_12_11" xml:space="preserve">
+    <value>The reader sends a command error</value>
+    <comment>读写器发送指令错误</comment>
+  </data>
+  <data name="Frame_0010_12_2" xml:space="preserve">
+    <value>Select parameter error</value>
+    <comment>选择参数错误</comment>
+  </data>
+  <data name="Frame_0010_12_3" xml:space="preserve">
+    <value>Lock operating parameter error</value>
+    <comment>锁操作参数错误</comment>
+  </data>
+  <data name="Frame_0010_12_4" xml:space="preserve">
+    <value>CRC error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="Frame_0010_12_5" xml:space="preserve">
+    <value>underpower</value>
+    <comment>功率不足</comment>
+  </data>
+  <data name="Frame_0010_12_6" xml:space="preserve">
+    <value>Data Overflow</value>
+    <comment>数据区溢出</comment>
+  </data>
+  <data name="Frame_0010_12_7" xml:space="preserve">
+    <value>The data area is locked</value>
+    <comment>数据区被锁定</comment>
+  </data>
+  <data name="Frame_0010_12_8" xml:space="preserve">
+    <value>Access password error</value>
+    <comment>访问密码错误</comment>
+  </data>
+  <data name="Frame_0010_12_9" xml:space="preserve">
+    <value>Other tag mistakes</value>
+    <comment>其他标签错误</comment>
+  </data>
+  <data name="Frame_0010_13_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_13_2" xml:space="preserve">
+    <value>Select parameter error</value>
+    <comment>选择参数错误</comment>
+  </data>
+  <data name="Frame_0010_13_3" xml:space="preserve">
+    <value>CRC error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="Frame_0010_13_4" xml:space="preserve">
+    <value>underpower</value>
+    <comment>功率不足</comment>
+  </data>
+  <data name="Frame_0010_13_5" xml:space="preserve">
+    <value>Inactivated password error</value>
+    <comment>灭活密码错误</comment>
+  </data>
+  <data name="Frame_0010_13_6" xml:space="preserve">
+    <value>Other tag mistakes</value>
+    <comment>其他标签错误</comment>
+  </data>
+  <data name="Frame_0010_13_7" xml:space="preserve">
+    <value>Labels are missing</value>
+    <comment>标签丢失</comment>
+  </data>
+  <data name="Frame_0010_13_8" xml:space="preserve">
+    <value>The reader sends a command error</value>
+    <comment>读写器发送指令错误</comment>
+  </data>
+  <data name="Frame_0010_20_0" xml:space="preserve">
+    <value>Success</value>
+    <comment>操作成功</comment>
+  </data>
+  <data name="Frame_0010_20_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_20_10" xml:space="preserve">
+    <value>Reader failed to send instructions</value>
+    <comment>读写器发送指令失败</comment>
+  </data>
+  <data name="Frame_0010_20_2" xml:space="preserve">
+    <value>Wrong parameter selection</value>
+    <comment>选择参数错误</comment>
+  </data>
+  <data name="Frame_0010_20_3" xml:space="preserve">
+    <value>Wrong parameter Untraceable</value>
+    <comment>Untraceable参数错误</comment>
+  </data>
+  <data name="Frame_0010_20_4" xml:space="preserve">
+    <value>CRC check error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="Frame_0010_20_5" xml:space="preserve">
+    <value>Power shortage</value>
+    <comment>功率不足</comment>
+  </data>
+  <data name="Frame_0010_20_6" xml:space="preserve">
+    <value>Password error</value>
+    <comment>访问密码错误</comment>
+  </data>
+  <data name="Frame_0010_20_7" xml:space="preserve">
+    <value>Unsupported instructions</value>
+    <comment>不支持的指令</comment>
+  </data>
+  <data name="Frame_0010_20_8" xml:space="preserve">
+    <value>Other label errors</value>
+    <comment>其他标签错误</comment>
+  </data>
+  <data name="Frame_0010_20_9" xml:space="preserve">
+    <value>Label loss</value>
+    <comment>标签丢失</comment>
+  </data>
+  <data name="Frame_0010_40_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_40_2" xml:space="preserve">
+    <value>Read the contents of parameter error</value>
+    <comment>读取内容参数错误</comment>
+  </data>
+  <data name="Frame_0010_40_3" xml:space="preserve">
+    <value>Parameter error reading the user data area</value>
+    <comment>用户数据区读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_41_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_41_2" xml:space="preserve">
+    <value>Write parameter error</value>
+    <comment>写入参数错误</comment>
+  </data>
+  <data name="Frame_0010_42_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_42_2" xml:space="preserve">
+    <value>Write parameter error</value>
+    <comment>写入参数错误</comment>
+  </data>
+  <data name="Frame_0010_50_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_50_2" xml:space="preserve">
+    <value>Select Read parameter error</value>
+    <comment>选择读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_50_3" xml:space="preserve">
+    <value>TID reading error</value>
+    <comment>标签信息区(TID)读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_50_4" xml:space="preserve">
+    <value>UserData Area error reading error</value>
+    <comment>用户区读取参数错误</comment>
+  </data>
+  <data name="Frame_0010_50_5" xml:space="preserve">
+    <value>Other parameter error</value>
+    <comment>其他参数错误</comment>
+  </data>
+  <data name="Frame_0010_51_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_51_10" xml:space="preserve">
+    <value>Identification failure</value>
+    <comment>鉴别失败</comment>
+  </data>
+  <data name="Frame_0010_51_11" xml:space="preserve">
+    <value>Other tag mistakes</value>
+    <comment>其他标签错误</comment>
+  </data>
+  <data name="Frame_0010_51_12" xml:space="preserve">
+    <value>Labels are missing</value>
+    <comment>标签丢失</comment>
+  </data>
+  <data name="Frame_0010_51_13" xml:space="preserve">
+    <value>Command sending error</value>
+    <comment>读写器发送指令错误</comment>
+  </data>
+  <data name="Frame_0010_51_2" xml:space="preserve">
+    <value>Select parameter error</value>
+    <comment>选择参数错误</comment>
+  </data>
+  <data name="Frame_0010_51_3" xml:space="preserve">
+    <value>Parameter input error</value>
+    <comment>写入参数错误</comment>
+  </data>
+  <data name="Frame_0010_51_4" xml:space="preserve">
+    <value>CRC error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="Frame_0010_51_5" xml:space="preserve">
+    <value>underpower</value>
+    <comment>功率不足</comment>
+  </data>
+  <data name="Frame_0010_51_6" xml:space="preserve">
+    <value>Data Overflow</value>
+    <comment>数据区溢出</comment>
+  </data>
+  <data name="Frame_0010_51_7" xml:space="preserve">
+    <value>The data area locked</value>
+    <comment>数据区被锁定</comment>
+  </data>
+  <data name="Frame_0010_51_8" xml:space="preserve">
+    <value>Access password error</value>
+    <comment>访问密码错误</comment>
+  </data>
+  <data name="Frame_0010_51_9" xml:space="preserve">
+    <value>Insufficient permissions</value>
+    <comment>权限不足</comment>
+  </data>
+  <data name="Frame_0010_52_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_52_10" xml:space="preserve">
+    <value>Identification failure</value>
+    <comment>鉴别失败</comment>
+  </data>
+  <data name="Frame_0010_52_11" xml:space="preserve">
+    <value>Other tag error</value>
+    <comment>其他标签错误</comment>
+  </data>
+  <data name="Frame_0010_52_12" xml:space="preserve">
+    <value>Tag data missing</value>
+    <comment>标签丢失</comment>
+  </data>
+  <data name="Frame_0010_52_13" xml:space="preserve">
+    <value>The reader sends a command error</value>
+    <comment>读写器发送指令错误</comment>
+  </data>
+  <data name="Frame_0010_52_2" xml:space="preserve">
+    <value>Select parameter error</value>
+    <comment>选择参数错误</comment>
+  </data>
+  <data name="Frame_0010_52_3" xml:space="preserve">
+    <value>Lock operating parameter error</value>
+    <comment>锁操作参数错误</comment>
+  </data>
+  <data name="Frame_0010_52_4" xml:space="preserve">
+    <value>CRC error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="Frame_0010_52_5" xml:space="preserve">
+    <value>Underpower</value>
+    <comment>功率不足</comment>
+  </data>
+  <data name="Frame_0010_52_6" xml:space="preserve">
+    <value>Data Overflow</value>
+    <comment>数据区溢出</comment>
+  </data>
+  <data name="Frame_0010_52_7" xml:space="preserve">
+    <value>Data area locked</value>
+    <comment>数据区被锁定</comment>
+  </data>
+  <data name="Frame_0010_52_8" xml:space="preserve">
+    <value>Access password error</value>
+    <comment>访问密码错误</comment>
+  </data>
+  <data name="Frame_0010_52_9" xml:space="preserve">
+    <value>Insufficient permissions</value>
+    <comment>权限不足</comment>
+  </data>
+  <data name="Frame_0010_53_1" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+    <comment>天线端口参数错误</comment>
+  </data>
+  <data name="Frame_0010_53_10" xml:space="preserve">
+    <value>Command sending error</value>
+    <comment>读写器发送指令错误</comment>
+  </data>
+  <data name="Frame_0010_53_2" xml:space="preserve">
+    <value>Parameter selection error</value>
+    <comment>选择参数错误</comment>
+  </data>
+  <data name="Frame_0010_53_3" xml:space="preserve">
+    <value>CRC error</value>
+    <comment>CRC校验错误</comment>
+  </data>
+  <data name="Frame_0010_53_4" xml:space="preserve">
+    <value>underpower</value>
+    <comment>功率不足</comment>
+  </data>
+  <data name="Frame_0010_53_5" xml:space="preserve">
+    <value>Inactivated password error</value>
+    <comment>灭活密码错误</comment>
+  </data>
+  <data name="Frame_0010_53_6" xml:space="preserve">
+    <value>Insufficient permissions</value>
+    <comment>权限不足</comment>
+  </data>
+  <data name="Frame_0010_53_7" xml:space="preserve">
+    <value>Identification failure</value>
+    <comment>鉴别失败</comment>
+  </data>
+  <data name="Frame_0010_53_8" xml:space="preserve">
+    <value>Other tag error</value>
+    <comment>其他标签错误</comment>
+  </data>
+  <data name="Frame_0010_53_9" xml:space="preserve">
+    <value>Tag data missing</value>
+    <comment>标签丢失</comment>
+  </data>
+  <data name="Frame_0101_00_1" xml:space="preserve">
+    <value>Not support this Frequency parameter</value>
+    <comment>频点参数读写器硬件不支持</comment>
+  </data>
+  <data name="Frame_0101_00_2" xml:space="preserve">
+    <value>Not support this Port parameter</value>
+    <comment>端口参数读写器硬件不支持</comment>
+  </data>
+  <data name="Frame_0101_00_3" xml:space="preserve">
+    <value>PLL lock failure</value>
+    <comment>锁相环锁定失败</comment>
+  </data>
+  <data name="Frame_0101_01_1" xml:space="preserve">
+    <value>save parameters failed</value>
+    <comment>参数保存失败</comment>
+  </data>
+  <data name="Frame_0101_03_1" xml:space="preserve">
+    <value>save parameters failed</value>
+    <comment>参数保存失败</comment>
+  </data>
+  <data name="Frame_0101_06_1" xml:space="preserve">
+    <value>save parameters failed</value>
+    <comment>参数保存失败</comment>
+  </data>
+</root>

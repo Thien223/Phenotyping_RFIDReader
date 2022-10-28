@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Config_RFID_0001_0B_Error" xml:space="preserve">
+    <value>The start condition can not be the same as the trigger condition！</value>
+  </data>
+  <data name="Config_RFID_Option_Title" xml:space="preserve">
+    <value>-- Configuration</value>
+  </data>
+  <data name="Config_RFID_Parameter_Error" xml:space="preserve">
+    <value>Parameter error！</value>
+  </data>
+  <data name="Config_RFID_Show_Question_Restore" xml:space="preserve">
+    <value>Restore factory Settings will clear all of the data,confirm？</value>
+  </data>
+  <data name="Dialog_AddBlack_Title1" xml:space="preserve">
+    <value>Add a blacklist</value>
+  </data>
+  <data name="Dialog_AddBlack_Title2" xml:space="preserve">
+    <value>Add a whitelist</value>
+  </data>
+  <data name="Dialog_SoftUpdate_Title_App" xml:space="preserve">
+    <value>Application software upgrade</value>
+  </data>
+  <data name="Dialog_SoftUpdate_Title_Base" xml:space="preserve">
+    <value>Baseband software upgrade</value>
+  </data>
+  <data name="FrequencyRes_string01" xml:space="preserve">
+    <value>The band cannot be empty!</value>
+  </data>
+  <data name="FrequencyRes_string02" xml:space="preserve">
+    <value>The reading duration cannot be empty!</value>
+  </data>
+  <data name="FrequencyRes_string03" xml:space="preserve">
+    <value>The time format is incorrect!</value>
+  </data>
+  <data name="FrequencyRes_string04" xml:space="preserve">
+    <value>Band setting failed!</value>
+  </data>
+  <data name="FrequencyRes_string05" xml:space="preserve">
+    <value>Frequency setting failed!</value>
+  </data>
+  <data name="FrequencyRes_string06" xml:space="preserve">
+    <value>Antenna power setting failed!</value>
+  </data>
+  <data name="FrequencyRes_string07" xml:space="preserve">
+    <value>Method call failed</value>
+  </data>
+  <data name="FrequencyRes_string08" xml:space="preserve">
+    <value>Frequency response graph</value>
+  </data>
+  <data name="FrequencyRes_string09" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="FrequencyRes_string10" xml:space="preserve">
+    <value>Frequency band</value>
+  </data>
+  <data name="FrequencyRes_string11" xml:space="preserve">
+    <value>Time cannot be less than 500 milliseconds !</value>
+  </data>
+  <data name="FrequencyRes_string12" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="FrequencyRes_string13" xml:space="preserve">
+    <value>The device stopped reading settings failed more than 3 times!</value>
+  </data>
+  <data name="FrequencyRes_string14" xml:space="preserve">
+    <value>There are duplicates, please note!</value>
+  </data>
+  <data name="FrequencyRes_string15" xml:space="preserve">
+    <value>Number of detected tags</value>
+  </data>
+  <data name="FrequencyRes_string16" xml:space="preserve">
+    <value>Please select the antenna before testing</value>
+  </data>
+  <data name="FrequencyRes_string17" xml:space="preserve">
+    <value>Stop detection</value>
+  </data>
+  <data name="FrequencyRes_string18" xml:space="preserve">
+    <value>The number of tags currently detected is 0.</value>
+  </data>
+  <data name="FrequencyRes_string19" xml:space="preserve">
+    <value>Please enter the integer step value!</value>
+  </data>
+  <data name="FunctionWrite_EPC_Error" xml:space="preserve">
+    <value>EPC Write Failed：</value>
+  </data>
+  <data name="FunctionWrite_Success" xml:space="preserve">
+    <value>Write OK！</value>
+  </data>
+  <data name="FunctionWrite_Userdata_Error" xml:space="preserve">
+    <value>UserData Write Failed：</value>
+  </data>
+  <data name="Main_Failure" xml:space="preserve">
+    <value>Failure！</value>
+  </data>
+  <data name="Main_Null" xml:space="preserve">
+    <value>Null！</value>
+  </data>
+  <data name="Main_Recive_Over" xml:space="preserve">
+    <value>Recive Over！</value>
+  </data>
+  <data name="Main_Removed" xml:space="preserve">
+    <value>Removed！</value>
+  </data>
+  <data name="Main_Show_Connect_Failure" xml:space="preserve">
+    <value>Open Connect Failure！</value>
+  </data>
+  <data name="Main_Show_Error1" xml:space="preserve">
+    <value>Please select a data column！</value>
+  </data>
+  <data name="Main_Show_Error2" xml:space="preserve">
+    <value>Only supports 6C Tags！</value>
+  </data>
+  <data name="Main_Show_ExportError1_Excel" xml:space="preserve">
+    <value>Error when exporting the file. The file may be open！</value>
+  </data>
+  <data name="Main_Show_ExportError_Excel" xml:space="preserve">
+    <value>Excel Create Error，Excel No support！</value>
+  </data>
+  <data name="Main_Show_NoConnect" xml:space="preserve">
+    <value>Please connect the reader first！</value>
+  </data>
+  <data name="Main_Show_Question_NewConnect" xml:space="preserve">
+    <value>A new reader is actively connected to the PC, whether to close the current connection？</value>
+  </data>
+  <data name="Main_Show_Question_Restore" xml:space="preserve">
+    <value>Confrim Restore？</value>
+  </data>
+  <data name="Main_Show_Read_Error1" xml:space="preserve">
+    <value>Read failed，Timeout or Antenna not selected！</value>
+  </data>
+  <data name="Main_Show_Save_CSV" xml:space="preserve">
+    <value>csv Save Success！</value>
+  </data>
+  <data name="Main_Show_Save_CSV_Error1" xml:space="preserve">
+    <value>Export failure!</value>
+  </data>
+  <data name="Main_Show_Save_Excel" xml:space="preserve">
+    <value>xls Save Success！</value>
+  </data>
+  <data name="Main_Show_Save_Excel_Error1" xml:space="preserve">
+    <value>Export failure!，Microsoft.Excel not Found!</value>
+  </data>
+  <data name="Main_Show_Write_Error1" xml:space="preserve">
+    <value>Please select a data column！</value>
+  </data>
+  <data name="Main_Show_Write_Error2" xml:space="preserve">
+    <value>6B tags only support custom write！</value>
+  </data>
+  <data name="Main_Success" xml:space="preserve">
+    <value>Success！</value>
+  </data>
+  <data name="Main_Tip" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="Main_Title" xml:space="preserve">
+    <value>Hopeland RFID Manager</value>
+  </data>
+  <data name="Main_Version_Application" xml:space="preserve">
+    <value>Application version：{0}
+Reader Name：{1}
+Power on Time：{2} D {3} M {4} S</value>
+  </data>
+  <data name="Main_Version_BaseBand" xml:space="preserve">
+    <value>Baseband software version：</value>
+  </data>
+  <data name="PwdInput_Error1" xml:space="preserve">
+    <value>Username or password is wrong！</value>
+  </data>
+  <data name="ReadTag_Error01" xml:space="preserve">
+    <value>SDK does not support functions that read UserData and Reserved separately</value>
+  </data>
+  <data name="RFID_Option_Messge1" xml:space="preserve">
+    <value>Front to back ratio:</value>
+  </data>
+  <data name="RFID_Option_Messge2" xml:space="preserve">
+    <value>Standing wave ratio：</value>
+  </data>
+  <data name="RFID_Option_Messge3" xml:space="preserve">
+    <value>Transmission failed!</value>
+  </data>
+  <data name="RFID_Option_UnconnectedInfinity" xml:space="preserve">
+    <value>Unconnected, standing wave ratio: infinity</value>
+  </data>
+  <data name="SearchDevice_Error1" xml:space="preserve">
+    <value>Start Search Failure!</value>
+  </data>
+  <data name="SearchDevice_Error2" xml:space="preserve">
+    <value>Server Model，Error！</value>
+  </data>
+  <data name="Setting_GPI_Error1" xml:space="preserve">
+    <value>Only custom commands can be edited!</value>
+  </data>
+  <data name="Setting_GPI_Error2" xml:space="preserve">
+    <value>Please select a command list！</value>
+  </data>
+  <data name="SingleMain_ResultMessge01" xml:space="preserve">
+    <value>Antenna port parameter error</value>
+  </data>
+  <data name="SingleMain_ResultMessge02" xml:space="preserve">
+    <value>choose to read the parameter error</value>
+  </data>
+  <data name="SingleMain_ResultMessge03" xml:space="preserve">
+    <value>TID read parameter error</value>
+  </data>
+  <data name="SingleMain_ResultMessge04" xml:space="preserve">
+    <value>User data area read parameter error</value>
+  </data>
+  <data name="SingleMain_ResultMessge05" xml:space="preserve">
+    <value>Reserved area read parameter error</value>
+  </data>
+  <data name="SingleMain_ResultMessge06" xml:space="preserve">
+    <value>Other parameter error</value>
+  </data>
+  <data name="SoftUpdate_Error1" xml:space="preserve">
+    <value>Max File 100M！</value>
+  </data>
+  <data name="SoftUpdate_Error2" xml:space="preserve">
+    <value>Time Out！</value>
+  </data>
+  <data name="SoftUpdate_Error3" xml:space="preserve">
+    <value>return false！</value>
+  </data>
+  <data name="SoftUpdate_Error4" xml:space="preserve">
+    <value>upgrade error！</value>
+  </data>
+  <data name="SoftUpdate_Error5" xml:space="preserve">
+    <value>CRC ERROR！</value>
+  </data>
+  <data name="SoftUpdate_Tip1" xml:space="preserve">
+    <value>upgrade success！now Retart Reader?</value>
+  </data>
+  <data name="SoftUpdate_Tip2" xml:space="preserve">
+    <value>please select file!</value>
+  </data>
+  <data name="Test_Option_Authed" xml:space="preserve">
+    <value>Authorized</value>
+  </data>
+  <data name="Test_Option_DataNotlegal" xml:space="preserve">
+    <value>The data is not legal!</value>
+  </data>
+  <data name="Test_Option_DataNull" xml:space="preserve">
+    <value>The data is empty</value>
+  </data>
+  <data name="Test_Option_HaveSameGPI" xml:space="preserve">
+    <value>The same GPI data already exists</value>
+  </data>
+  <data name="Test_Option_HaveSameGPO" xml:space="preserve">
+    <value>The same GPO data already exists</value>
+  </data>
+  <data name="Test_Option_TimeNotNull" xml:space="preserve">
+    <value>Time cannot be empty!</value>
+  </data>
+  <data name="Test_Option_UNAuthed" xml:space="preserve">
+    <value>Unauthorized</value>
+  </data>
+  <data name="Test_Option_Wiegand0Error" xml:space="preserve">
+    <value>Wiegand 0's data format is illegal</value>
+  </data>
+  <data name="Test_Option_Wiegand1Error" xml:space="preserve">
+    <value>Wiegand 1's data format is illegal</value>
+  </data>
+  <data name="Test_Option_WiegandNotEques" xml:space="preserve">
+    <value>Wiegand 0 and Wiegand 1 cannot be empty at the same time</value>
+  </data>
+  <data name="Test_Option_WiegandNotsame" xml:space="preserve">
+    <value>Wiegand can't be the same!</value>
+  </data>
+  <data name="Test_Performance_Error1" xml:space="preserve">
+    <value>Please add the equipment, and then start the test！</value>
+  </data>
+  <data name="Test_Performance_Error2" xml:space="preserve">
+    <value>Add device Error：Please check connection parameters or whether they have been re added！</value>
+  </data>
+  <data name="Test_Performance_Error3" xml:space="preserve">
+    <value>Remove Error，Please re select！</value>
+  </data>
+  <data name="Test_Performance_Error4" xml:space="preserve">
+    <value>Please Select Item！</value>
+  </data>
+  <data name="Test_PowerCalibration_Error1" xml:space="preserve">
+    <value>Transmit carrier failure!</value>
+  </data>
+  <data name="Test_Tag_Option_Error1" xml:space="preserve">
+    <value>Invalid write data:</value>
+  </data>
+  <data name="Test_Tag_Option_Error2" xml:space="preserve">
+    <value>Password must be 8 digits long!</value>
+  </data>
+  <data name="Test_Tag_Option_Title1" xml:space="preserve">
+    <value> 6C Tag（Write / Lock / Destroy)</value>
+  </data>
+  <data name="Test_Tag_Option_Title2" xml:space="preserve">
+    <value> 6B Tag（Write / Lock / Destroy)</value>
+  </data>
+  <data name="Test_Tag_Option_Title3" xml:space="preserve">
+    <value> GB Tag（Write / Lock / Destroy)</value>
+  </data>
+  <data name="UdpSetting_Error1" xml:space="preserve">
+    <value>MAC address must be not empty!</value>
+  </data>
+  <data name="UdpSetting_Error2" xml:space="preserve">
+    <value>Select param must be not empty!</value>
+  </data>
+  <data name="UdpSetting_Tip1" xml:space="preserve">
+    <value>You need to restart the program for changes to take effect.</value>
+  </data>
+  <data name="UdpSetting_Tip2" xml:space="preserve">
+    <value>Setup failed!</value>
+  </data>
+  <data name="UdpSetting_Tip3" xml:space="preserve">
+    <value>Init failed,please restart!</value>
+  </data>
+  <data name="WifiConnect_pwd" xml:space="preserve">
+    <value>Please input a password</value>
+  </data>
+  <data name="WifiSearch_ConnectFailed" xml:space="preserve">
+    <value>Failed to connect to wifi hotspots</value>
+  </data>
+  <data name="WifiSearch_ConnectSuccess" xml:space="preserve">
+    <value>Connecting wifi hotspots to success</value>
+  </data>
+  <data name="WifiSearch_ConnectSwitch" xml:space="preserve">
+    <value>Do you want to turn off the Reader's WiFi connection, please note that there are other ways to connect to the WiFi again?</value>
+  </data>
+  <data name="WifiSearch_NetWork" xml:space="preserve">
+    <value>Wireless network connection</value>
+  </data>
+</root>

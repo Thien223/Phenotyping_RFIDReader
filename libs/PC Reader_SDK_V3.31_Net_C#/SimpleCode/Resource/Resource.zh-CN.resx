@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Config_RFID_0001_0B_Error" xml:space="preserve">
+    <value>开始条件，与触发条件不能一样！</value>
+  </data>
+  <data name="Config_RFID_Option_Title" xml:space="preserve">
+    <value>-- 配置</value>
+  </data>
+  <data name="Config_RFID_Parameter_Error" xml:space="preserve">
+    <value>参数错误！</value>
+  </data>
+  <data name="Config_RFID_Show_Question_Restore" xml:space="preserve">
+    <value>恢复出厂设置将清除所有数据，确认？</value>
+  </data>
+  <data name="Dialog_AddBlack_Title1" xml:space="preserve">
+    <value>添加黑名单</value>
+  </data>
+  <data name="Dialog_AddBlack_Title2" xml:space="preserve">
+    <value>添加白名单</value>
+  </data>
+  <data name="Dialog_SoftUpdate_Title_App" xml:space="preserve">
+    <value>应用软件升级</value>
+  </data>
+  <data name="Dialog_SoftUpdate_Title_Base" xml:space="preserve">
+    <value>基带软件升级</value>
+  </data>
+  <data name="FrequencyRes_string01" xml:space="preserve">
+    <value>频段不能为空!</value>
+  </data>
+  <data name="FrequencyRes_string02" xml:space="preserve">
+    <value>读取时长不能为空!</value>
+  </data>
+  <data name="FrequencyRes_string03" xml:space="preserve">
+    <value>时间格式不正确!</value>
+  </data>
+  <data name="FrequencyRes_string04" xml:space="preserve">
+    <value>频段设置失败！</value>
+  </data>
+  <data name="FrequencyRes_string05" xml:space="preserve">
+    <value>频点设置失败！</value>
+  </data>
+  <data name="FrequencyRes_string06" xml:space="preserve">
+    <value>天线功率设置失败!</value>
+  </data>
+  <data name="FrequencyRes_string07" xml:space="preserve">
+    <value>方法调用失败</value>
+  </data>
+  <data name="FrequencyRes_string08" xml:space="preserve">
+    <value>频响曲线图</value>
+  </data>
+  <data name="FrequencyRes_string09" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="FrequencyRes_string10" xml:space="preserve">
+    <value>频段</value>
+  </data>
+  <data name="FrequencyRes_string11" xml:space="preserve">
+    <value>时间不能小于500毫秒!</value>
+  </data>
+  <data name="FrequencyRes_string12" xml:space="preserve">
+    <value>功率</value>
+  </data>
+  <data name="FrequencyRes_string13" xml:space="preserve">
+    <value>设备停止读设置失败超过3次!</value>
+  </data>
+  <data name="FrequencyRes_string14" xml:space="preserve">
+    <value>存在重复项，请注意！</value>
+  </data>
+  <data name="FrequencyRes_string15" xml:space="preserve">
+    <value>检测标签数</value>
+  </data>
+  <data name="FrequencyRes_string16" xml:space="preserve">
+    <value>请选择天线后，再进行检测</value>
+  </data>
+  <data name="FrequencyRes_string17" xml:space="preserve">
+    <value>停止检测</value>
+  </data>
+  <data name="FrequencyRes_string18" xml:space="preserve">
+    <value>当前检测的标签数为0</value>
+  </data>
+  <data name="FrequencyRes_string19" xml:space="preserve">
+    <value>请输入整型步进值！</value>
+  </data>
+  <data name="FunctionWrite_EPC_Error" xml:space="preserve">
+    <value>EPC 写入失败：</value>
+  </data>
+  <data name="FunctionWrite_Success" xml:space="preserve">
+    <value>写入成功！</value>
+  </data>
+  <data name="FunctionWrite_Userdata_Error" xml:space="preserve">
+    <value>Userdata写入失败：</value>
+  </data>
+  <data name="Main_Failure" xml:space="preserve">
+    <value>失败！</value>
+  </data>
+  <data name="Main_Null" xml:space="preserve">
+    <value>空！</value>
+  </data>
+  <data name="Main_Recive_Over" xml:space="preserve">
+    <value>接收结束！</value>
+  </data>
+  <data name="Main_Removed" xml:space="preserve">
+    <value>已删除！</value>
+  </data>
+  <data name="Main_Show_Connect_Failure" xml:space="preserve">
+    <value>打开连接失败！</value>
+  </data>
+  <data name="Main_Show_Error1" xml:space="preserve">
+    <value>请选择数据项！</value>
+  </data>
+  <data name="Main_Show_Error2" xml:space="preserve">
+    <value>只支持6B标签！</value>
+  </data>
+  <data name="Main_Show_ExportError1_Excel" xml:space="preserve">
+    <value>导出文件时出错。 文件可能已打开！</value>
+  </data>
+  <data name="Main_Show_ExportError_Excel" xml:space="preserve">
+    <value>Excel创建错误，Excel不支持！</value>
+  </data>
+  <data name="Main_Show_NoConnect" xml:space="preserve">
+    <value>请先连接读写器！</value>
+  </data>
+  <data name="Main_Show_Question_NewConnect" xml:space="preserve">
+    <value>新的读写器主动连接到PC，是否关闭当前连接？</value>
+  </data>
+  <data name="Main_Show_Question_Restore" xml:space="preserve">
+    <value>确认恢复出厂设置？</value>
+  </data>
+  <data name="Main_Show_Read_Error1" xml:space="preserve">
+    <value>读取失败！通讯超时或未勾选天线！</value>
+  </data>
+  <data name="Main_Show_Save_CSV" xml:space="preserve">
+    <value>CSV文件保存成功！</value>
+  </data>
+  <data name="Main_Show_Save_CSV_Error1" xml:space="preserve">
+    <value>导出失败！</value>
+  </data>
+  <data name="Main_Show_Save_Excel" xml:space="preserve">
+    <value>Excel文件保存成功！</value>
+  </data>
+  <data name="Main_Show_Save_Excel_Error1" xml:space="preserve">
+    <value>导出失败！未发现 Microsoft.Excel ！</value>
+  </data>
+  <data name="Main_Show_Write_Error1" xml:space="preserve">
+    <value>请选择写入数据项！</value>
+  </data>
+  <data name="Main_Show_Write_Error2" xml:space="preserve">
+    <value>6B 标签只支持自定义写！</value>
+  </data>
+  <data name="Main_Success" xml:space="preserve">
+    <value>成功！</value>
+  </data>
+  <data name="Main_Tip" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="Main_Title" xml:space="preserve">
+    <value>RFID读写器管理软件</value>
+  </data>
+  <data name="Main_Version_Application" xml:space="preserve">
+    <value>应用软件版本：{0}
+读写器名称：{1}
+读写器上电时间：{2}天 {3}时 {4}分</value>
+  </data>
+  <data name="Main_Version_BaseBand" xml:space="preserve">
+    <value>基带软件版本：</value>
+  </data>
+  <data name="PwdInput_Error1" xml:space="preserve">
+    <value>用户名或者密码错误！</value>
+  </data>
+  <data name="ReadTag_Error01" xml:space="preserve">
+    <value>SDK不支持单独读取UserData 和 Reserved的函数</value>
+  </data>
+  <data name="RFID_Option_Messge1" xml:space="preserve">
+    <value>前后比例：</value>
+  </data>
+  <data name="RFID_Option_Messge2" xml:space="preserve">
+    <value>驻波比：</value>
+  </data>
+  <data name="RFID_Option_Messge3" xml:space="preserve">
+    <value>传输失败！</value>
+  </data>
+  <data name="RFID_Option_UnconnectedInfinity" xml:space="preserve">
+    <value>未连接，驻波比：无穷大</value>
+  </data>
+  <data name="SearchDevice_Error1" xml:space="preserve">
+    <value>开始搜索失败！</value>
+  </data>
+  <data name="SearchDevice_Error2" xml:space="preserve">
+    <value>读写器为Server模式时才能主动连接！</value>
+  </data>
+  <data name="Setting_GPI_Error1" xml:space="preserve">
+    <value>只能编辑自定义命令！</value>
+  </data>
+  <data name="Setting_GPI_Error2" xml:space="preserve">
+    <value>请选择命令列表！</value>
+  </data>
+  <data name="SingleMain_ResultMessge01" xml:space="preserve">
+    <value>天线端口参数错误</value>
+  </data>
+  <data name="SingleMain_ResultMessge02" xml:space="preserve">
+    <value>选择读取参数错误</value>
+  </data>
+  <data name="SingleMain_ResultMessge03" xml:space="preserve">
+    <value>TID读取参数错误</value>
+  </data>
+  <data name="SingleMain_ResultMessge04" xml:space="preserve">
+    <value>用户数据区读取参数错误</value>
+  </data>
+  <data name="SingleMain_ResultMessge05" xml:space="preserve">
+    <value>保留区读取参数错误</value>
+  </data>
+  <data name="SingleMain_ResultMessge06" xml:space="preserve">
+    <value>其他参数错误</value>
+  </data>
+  <data name="SoftUpdate_Error1" xml:space="preserve">
+    <value>文件最大100M！</value>
+  </data>
+  <data name="SoftUpdate_Error2" xml:space="preserve">
+    <value>通信超时！</value>
+  </data>
+  <data name="SoftUpdate_Error3" xml:space="preserve">
+    <value>读写器返回错误！</value>
+  </data>
+  <data name="SoftUpdate_Error4" xml:space="preserve">
+    <value>升级错误！</value>
+  </data>
+  <data name="SoftUpdate_Error5" xml:space="preserve">
+    <value>CRC 错误！</value>
+  </data>
+  <data name="SoftUpdate_Tip1" xml:space="preserve">
+    <value>升级成功，是否重启读写器！</value>
+  </data>
+  <data name="SoftUpdate_Tip2" xml:space="preserve">
+    <value>请选择升级文件！</value>
+  </data>
+  <data name="Test_Option_Authed" xml:space="preserve">
+    <value>已授权</value>
+  </data>
+  <data name="Test_Option_DataNotlegal" xml:space="preserve">
+    <value>数据不合法！</value>
+  </data>
+  <data name="Test_Option_DataNull" xml:space="preserve">
+    <value>数据为空</value>
+  </data>
+  <data name="Test_Option_HaveSameGPI" xml:space="preserve">
+    <value>已存在相同的GPI数据</value>
+  </data>
+  <data name="Test_Option_HaveSameGPO" xml:space="preserve">
+    <value>已存在相同的GPO数据</value>
+  </data>
+  <data name="Test_Option_TimeNotNull" xml:space="preserve">
+    <value>时间不能为空!</value>
+  </data>
+  <data name="Test_Option_UNAuthed" xml:space="preserve">
+    <value>未授权</value>
+  </data>
+  <data name="Test_Option_Wiegand0Error" xml:space="preserve">
+    <value>韦根0 的数据格式不合法</value>
+  </data>
+  <data name="Test_Option_Wiegand1Error" xml:space="preserve">
+    <value>韦根1 的数据格式不合法</value>
+  </data>
+  <data name="Test_Option_WiegandNotEques" xml:space="preserve">
+    <value>韦根0和韦根1不能同时为空</value>
+  </data>
+  <data name="Test_Option_WiegandNotsame" xml:space="preserve">
+    <value>韦根不能相同!</value>
+  </data>
+  <data name="Test_Performance_Error1" xml:space="preserve">
+    <value>请添加设备，然后开始测试！</value>
+  </data>
+  <data name="Test_Performance_Error2" xml:space="preserve">
+    <value>添加设备错误：请检查连接参数或是否已重新添加！</value>
+  </data>
+  <data name="Test_Performance_Error3" xml:space="preserve">
+    <value>删除错误，请重新选择！</value>
+  </data>
+  <data name="Test_Performance_Error4" xml:space="preserve">
+    <value>请选择项！</value>
+  </data>
+  <data name="Test_PowerCalibration_Error1" xml:space="preserve">
+    <value>发送载波失败！</value>
+  </data>
+  <data name="Test_Tag_Option_Error1" xml:space="preserve">
+    <value>写入数据不合法：</value>
+  </data>
+  <data name="Test_Tag_Option_Error2" xml:space="preserve">
+    <value>密码长度必须为8位！</value>
+  </data>
+  <data name="Test_Tag_Option_Title1" xml:space="preserve">
+    <value> 6C Tag（写 / 锁 / 毁)</value>
+  </data>
+  <data name="Test_Tag_Option_Title2" xml:space="preserve">
+    <value> 6B Tag（写 / 锁 / 毁)</value>
+  </data>
+  <data name="Test_Tag_Option_Title3" xml:space="preserve">
+    <value> GB Tag（写 / 锁 / 毁)</value>
+  </data>
+  <data name="UdpSetting_Error1" xml:space="preserve">
+    <value>对方MAC地址不能为空！</value>
+  </data>
+  <data name="UdpSetting_Error2" xml:space="preserve">
+    <value>所选参数不能为空！</value>
+  </data>
+  <data name="UdpSetting_Tip1" xml:space="preserve">
+    <value>重启程序生效!</value>
+  </data>
+  <data name="UdpSetting_Tip2" xml:space="preserve">
+    <value>设置失败！</value>
+  </data>
+  <data name="UdpSetting_Tip3" xml:space="preserve">
+    <value>初始化失败，请重新打开！</value>
+  </data>
+  <data name="WifiConnect_pwd" xml:space="preserve">
+    <value>请输入密码</value>
+  </data>
+  <data name="WifiSearch_ConnectFailed" xml:space="preserve">
+    <value>连接wifi热点失败</value>
+  </data>
+  <data name="WifiSearch_ConnectSuccess" xml:space="preserve">
+    <value>连接wifi热点成功</value>
+  </data>
+  <data name="WifiSearch_ConnectSwitch" xml:space="preserve">
+    <value>是否关闭读写器的WiFi连接，请注意，再次打开WiFi需要采用其他连接方式?</value>
+  </data>
+  <data name="WifiSearch_NetWork" xml:space="preserve">
+    <value>无线网络连接</value>
+  </data>
+</root>

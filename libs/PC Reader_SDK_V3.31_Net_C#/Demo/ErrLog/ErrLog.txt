@@ -1,0 +1,48 @@
+Unprocessed Exception：10/27/2022 3:44:25 PM
+Exception Type：Exception
+Exception Message：Frame_0010_01(),Error！Input string was not in a correct format.
+Exception Message：   at RFIDReaderAPI.Protocol.Frame_0010_01..ctor(String param)
+   at RFIDReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0010_01_Set_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at RFIDReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：10/28/2022 9:28:43 AM
+Exception Type：Exception
+Exception Message：Frame_0010_01(),Error！Input string was not in a correct format.
+Exception Message：   at RFIDReaderAPI.Protocol.Frame_0010_01..ctor(String param)
+   at RFIDReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0010_01_Set_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at RFIDReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：10/28/2022 9:39:36 AM
+Exception Type：Exception
+Exception Message：Frame_0010_01(),Error！Input string was not in a correct format.
+Exception Message：   at RFIDReaderAPI.Protocol.Frame_0010_01..ctor(String param)
+   at RFIDReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0010_01_Set_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at RFIDReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------

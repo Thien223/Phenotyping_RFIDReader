@@ -1,0 +1,137 @@
+Unprocessed Exception：2019/3/18 14:44:20
+Exception Type：IndexOutOfRangeException
+Exception Message：索引超出了数组界限。
+Exception Message：   在 System.Windows.Forms.ListBox.ItemArray.GetItem(Int32 virtualIndex, Int32 stateMask)
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_00_Click() 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1613
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_05_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1132
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 SimpleReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MyFormTemplet\QQButton.cs:行号 362
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：2019/3/18 14:44:30
+Exception Type：IndexOutOfRangeException
+Exception Message：索引超出了数组界限。
+Exception Message：   在 System.Windows.Forms.ListBox.ItemArray.GetItem(Int32 virtualIndex, Int32 stateMask)
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_00_Click() 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1613
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_05_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1132
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 SimpleReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MyFormTemplet\QQButton.cs:行号 362
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：2019/3/18 14:44:47
+Exception Type：IndexOutOfRangeException
+Exception Message：索引超出了数组界限。
+Exception Message：   在 System.Windows.Forms.ListBox.ItemArray.GetItem(Int32 virtualIndex, Int32 stateMask)
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_00_Click() 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1613
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_05_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1132
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 SimpleReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MyFormTemplet\QQButton.cs:行号 362
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：2019/3/18 14:45:02
+Exception Type：IndexOutOfRangeException
+Exception Message：索引超出了数组界限。
+Exception Message：   在 System.Windows.Forms.ListBox.ItemArray.GetItem(Int32 virtualIndex, Int32 stateMask)
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_00_Click() 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1613
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_05_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1132
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 SimpleReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MyFormTemplet\QQButton.cs:行号 362
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：2019/3/18 14:45:31
+Exception Type：IndexOutOfRangeException
+Exception Message：索引超出了数组界限。
+Exception Message：   在 System.Windows.Forms.ListBox.ItemArray.GetItem(Int32 virtualIndex, Int32 stateMask)
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_00_Click() 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1613
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_05_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1132
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 SimpleReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MyFormTemplet\QQButton.cs:行号 362
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：2019/3/18 14:48:06
+Exception Type：IndexOutOfRangeException
+Exception Message：索引超出了数组界限。
+Exception Message：   在 System.Windows.Forms.ListBox.ItemArray.GetItem(Int32 virtualIndex, Int32 stateMask)
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_00_Click() 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1614
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0101_05_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1132
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 SimpleReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MyFormTemplet\QQButton.cs:行号 362
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：2019/3/20 16:00:43
+Exception Type：KeyNotFoundException
+Exception Message：给定关键字不在字典中。
+Exception Message：   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SimpleReaderDemo.Helper.LanguageHelper.GetResutlCode(Int32 resultType, Int32 key) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\Helper\LanguageHelper.cs:行号 74
+   在 SimpleReaderDemo.MySingleForm.TestForm.Tag_Option.btn_0010_12_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MySingleForm\TestForm\Tag_Option.cs:行号 327
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 SimpleReaderDemo.MyFormTemplet.QQButton.OnMouseUp(MouseEventArgs mevent) 位置 d:\Project\Commpany\ProjectNET\HLDemo\SimpleReaderDemo\SimpleReaderDemo\MyFormTemplet\QQButton.cs:行号 362
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+Unprocessed Exception：2019/12/4 10:30:48
+Exception Type：FormatException
+Exception Message：输入字符串的格式不正确。
+Exception Message：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 RFIDReaderAPI.RFIDConfig.GetReaderRF(String connID)
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.btn_0010_04_Get_Click(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\归档\Test\Intest\DemoIntest\PCReader\PCReader_V3.29_20191118\SimpleCode\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1201
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.InitRFIDControl() 位置 d:\Project\Commpany\ProjectNET\HLDemo\归档\Test\Intest\DemoIntest\PCReader\PCReader_V3.29_20191118\SimpleCode\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1392
+   在 SimpleReaderDemo.MySingleForm.TestForm.RFID_Option.tc_Main_SelectedIndexChanged(Object sender, EventArgs e) 位置 d:\Project\Commpany\ProjectNET\HLDemo\归档\Test\Intest\DemoIntest\PCReader\PCReader_V3.29_20191118\SimpleCode\SimpleReaderDemo\MySingleForm\RFID_Option.cs:行号 1419
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 SimpleReaderDemo.MyFormTemplet.QQTabControl.WndProc(Message& m) 位置 d:\Project\Commpany\ProjectNET\HLDemo\归档\Test\Intest\DemoIntest\PCReader\PCReader_V3.29_20191118\SimpleCode\SimpleReaderDemo\MyFormTemplet\QQTabControl.cs:行号 185
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------

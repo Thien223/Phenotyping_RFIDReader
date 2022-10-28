@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCAF95B5-1D95-4BC5-9F6C-6775B5AF9891}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimpleReaderDemo</RootNamespace>
+    <AssemblyName>SimpleReaderDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.22.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>98252260904D39BB167366D6BB5BC631EC348DAF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ClouReaderDemo_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RFIDReaderAPI">
+      <HintPath>.\RFIDReaderAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ReadParam.cs" />
+    <Compile Include="Enum\EMouseState.cs" />
+    <Compile Include="Enum\ESysButton.cs" />
+    <Compile Include="Helper\ConfigHelper.cs" />
+    <Compile Include="Helper\DrawHelper.cs" />
+    <Compile Include="Helper\LanguageHelper.cs" />
+    <Compile Include="Helper\MyXmlHelper.cs" />
+    <Compile Include="Helper\XmlHelper.cs" />
+    <Compile Include="MyFormTemplet\CheckedComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\ImageButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\LxLedControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQTextBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQTextBoxEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQToolStripRenderer.cs" />
+    <Compile Include="MyFormTemplet\RoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\_360Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\_360Form.Designer.cs">
+      <DependentUpon>_360Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\BaseOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\BaseOption.Designer.cs">
+      <DependentUpon>BaseOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\AddConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\AddConnect.Designer.cs">
+      <DependentUpon>AddConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\BaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\BaseDialog.Designer.cs">
+      <DependentUpon>BaseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\SearchResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\SearchResult.Designer.cs">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc.Designer.cs">
+      <DependentUpon>FunctionWriteEpc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData.Designer.cs">
+      <DependentUpon>FunctionWriteUserData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.Designer.cs">
+      <DependentUpon>FunctionWriteEpc_GB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.Designer.cs">
+      <DependentUpon>FunctionWriteUserData_GB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\SearchDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\SearchDevice.Designer.cs">
+      <DependentUpon>SearchDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\ReadTag_Param.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\ReadTag_Param.Designer.cs">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\RFID_Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\RFID_Option.Designer.cs">
+      <DependentUpon>RFID_Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option.Designer.cs">
+      <DependentUpon>Tag_Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option6B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option6B.Designer.cs">
+      <DependentUpon>Tag_Option6B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TCP_Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TCP_Server.Designer.cs">
+      <DependentUpon>TCP_Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_OptionGB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_OptionGB.Designer.cs">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleMainForm.Designer.cs">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\myButtonCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\myButtonCheck.Designer.cs">
+      <DependentUpon>myButtonCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Win32\Consts.cs" />
+    <Compile Include="Win32\Enums.cs" />
+    <Compile Include="Win32\KeyHook.cs" />
+    <Compile Include="Win32\MouseEventExtArgs.cs" />
+    <Compile Include="Win32\MouseHook.cs" />
+    <Compile Include="Win32\NativeMethods.cs" />
+    <Compile Include="Win32\Structs.cs" />
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyFormTemplet\_360Form.resx">
+      <DependentUpon>_360Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\BaseOption.resx">
+      <DependentUpon>BaseOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\AddConnect.en.resx">
+      <DependentUpon>AddConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\AddConnect.resx">
+      <DependentUpon>AddConnect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\BaseDialog.resx">
+      <DependentUpon>BaseDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\SearchResult.en.resx">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\SearchResult.resx">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc.en.resx">
+      <DependentUpon>FunctionWriteEpc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc.resx">
+      <DependentUpon>FunctionWriteEpc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.en.resx">
+      <DependentUpon>FunctionWriteEpc_GB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData.en.resx">
+      <DependentUpon>FunctionWriteUserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData.resx">
+      <DependentUpon>FunctionWriteUserData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.resx">
+      <DependentUpon>FunctionWriteEpc_GB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.en.resx">
+      <DependentUpon>FunctionWriteUserData_GB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.resx">
+      <DependentUpon>FunctionWriteUserData_GB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\ReadTag_Param.en.resx">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\ReadTag_Param.zh-Hans.resx">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\RFID_Option.en.resx">
+      <DependentUpon>RFID_Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\SearchDevice.en.resx">
+      <DependentUpon>SearchDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\SearchDevice.resx">
+      <DependentUpon>SearchDevice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TCP_Server.en.resx">
+      <DependentUpon>TCP_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\ReadTag_Param.resx">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\RFID_Option.resx">
+      <DependentUpon>RFID_Option.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option.en.resx">
+      <DependentUpon>Tag_Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option.resx">
+      <DependentUpon>Tag_Option.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option6B.en.resx">
+      <DependentUpon>Tag_Option6B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option6B.resx">
+      <DependentUpon>Tag_Option6B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TCP_Server.resx">
+      <DependentUpon>TCP_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_OptionGB.en.resx">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_OptionGB.hu-HU.resx">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_OptionGB.resx">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SingleMainForm.en.resx">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleMainForm.resx">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleMainForm.zh.resx">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\myButtonCheck.resx">
+      <DependentUpon>myButtonCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClouReaderDemo_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="beep.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\folder.png" />
+    <Content Include="logo.ico" />
+    <Content Include="ReaderConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\10024.png" />
+    <Content Include="Resources\10025.png" />
+    <Content Include="Resources\10026.png" />
+    <None Include="Resources\waiting.gif" />
+    <None Include="Resources\Cancel.gif" />
+    <None Include="Resources\_return.gif" />
+    <None Include="Resources\btncheckon6.png" />
+    <None Include="Resources\btncheckon5.png" />
+    <None Include="Resources\btncheckon4.png" />
+    <None Include="Resources\btncheckon3.png" />
+    <None Include="Resources\btncheckoff1.png" />
+    <None Include="Resources\btncheckoff11 .png" />
+    <None Include="Resources\btncheck11.png" />
+    <None Include="Resources\btncheck12.png" />
+    <None Include="Resources\bg.jpg" />
+    <Content Include="Resources\btncheckoff2.png" />
+    <None Include="Resources\btncheckoff3.png" />
+    <None Include="Resources\btncheckoff4.png" />
+    <None Include="Resources\btncheckoff5.png" />
+    <None Include="Resources\btncheckoff6.png" />
+    <None Include="Resources\btncheckon1.png" />
+    <None Include="Resources\btncheckon11 .png" />
+    <Content Include="Resources\btncheckon2.png" />
+    <None Include="Resources\_loading.gif" />
+    <None Include="Resources\10023.png" />
+    <None Include="Resources\10022.png" />
+    <None Include="Resources\10021_1.png" />
+    <None Include="Resources\10021.png" />
+    <None Include="Resources\10018.png" />
+    <None Include="Resources\10017.png" />
+    <None Include="Resources\10016.png" />
+    <None Include="Resources\10015.png" />
+    <None Include="Resources\10014.png" />
+    <None Include="Resources\10013.png" />
+    <None Include="Resources\10011.png" />
+    <None Include="Resources\10020.png" />
+    <None Include="Resources\10012.png" />
+    <None Include="Resources\10010.png" />
+    <None Include="Resources\10009.png" />
+    <None Include="Resources\10008.png" />
+    <None Include="Resources\10007.png" />
+    <None Include="Resources\100012.png" />
+    <None Include="Resources\100011.png" />
+    <None Include="Resources\100010.png" />
+    <None Include="Resources\10006.png" />
+    <None Include="Resources\10005.png" />
+    <None Include="Resources\10004.png" />
+    <None Include="Resources\10003.png" />
+    <None Include="Resources\10002.png" />
+    <None Include="Resources\10001.png" />
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Resource\SimpleReader.Resource.csproj">
+      <Project>{c6f7e19f-7eb6-4c45-b3f7-4b7bb4209ec5}</Project>
+      <Name>SimpleReader.Resource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
