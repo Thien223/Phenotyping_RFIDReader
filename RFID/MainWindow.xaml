@@ -302,6 +302,7 @@
                         <DataGridTextColumn Header="ANT6" Binding="{Binding Path=ANT6_COUNT}" HeaderStyle="{StaticResource DGH1}"/>
                         <DataGridTextColumn Header="ANT7" Binding="{Binding Path=ANT7_COUNT}" HeaderStyle="{StaticResource DGH1}"/>
                         <DataGridTextColumn Header="ANT8" Binding="{Binding Path=ANT8_COUNT}" HeaderStyle="{StaticResource DGH1}"/>
+                        <DataGridTextColumn Header="감도" Binding="{Binding Path=Frequency}" HeaderStyle="{StaticResource DGH1}"/>
                         <DataGridTextColumn Header="ReadTime" Binding="{Binding Path=ReadTime, StringFormat='yyyy-MM-dd HH:mm:ss'}" HeaderStyle="{StaticResource DGH1}"/>
 
                     </DataGrid.Columns>

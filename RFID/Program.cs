@@ -59,7 +59,8 @@ namespace RFID
                 ANT6_COUNT = tag_Model.ANT6_COUNT,
                 ANT7_COUNT = tag_Model.ANT7_COUNT,
                 ANT8_COUNT = tag_Model.ANT8_COUNT,
-                ReadTime = DateTime.Now
+                ReadTime = DateTime.Now,
+                Frequency = tag_Model.Frequency
             };
             if (ReceivedData.Count > 0)
             {

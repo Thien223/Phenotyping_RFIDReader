@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\itconv\rfid\RFID\obj\Release\
+D:\itconv\rfid\RFID_old\obj\Release\
 RFID
 none
 false
 TRACE
-D:\itconv\rfid\RFID\App.xaml
+D:\itconv\rfid\RFID_old\App.xaml
 1219584333
 1-1280675546
 10-757612950
-17-1540154305
+192125953066
 MainWindow.xaml;
 
-True
+False
 

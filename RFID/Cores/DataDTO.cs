@@ -24,5 +24,6 @@ namespace RFID.Cores
         public DateTime ReadTime { get; set; }
 
         public int CountDown = 1000;
+        public uint Frequency=0;
     }
 }
